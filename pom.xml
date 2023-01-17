@@ -111,7 +111,7 @@
         <artifactIdExcludesMisc>jdk.tools,mesos,scala-compiler,joda-time</artifactIdExcludesMisc>
         <artifactIdExcludes>${artifactIdExcludesMisc},${artifactIdExcludesScala},${artifactIdExcludesSpark},${artifactIdExcludesHadoop},${artifactIdExcludesHive}</artifactIdExcludes>
         <!--org.apache.hadoop,org.apache.hbase,org.apache.hive-->
-        <groupIdExcludes></groupIdExcludes>
+        <groupIdExcludes/>
         <akka.version>2.2.3-shaded-protobuf</akka.version>
         <akka.group>org.spark-project.akka</akka.group>
     </properties>
@@ -1314,7 +1314,7 @@
             <dependency>
                 <groupId>com.typesafe</groupId>
                 <artifactId>config</artifactId>
-                <version>1.2.1</version>
+                <version>1.4.2</version>
             </dependency>
 
             <dependency>
